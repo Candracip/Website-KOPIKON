@@ -1,0 +1,509 @@
+
+
+body{
+    margin: 0%;
+    align-items: center;
+    height: 100%;
+}
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    background-color: #4E342E;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed; top: 0px;
+    
+}
+
+.nav-logo{
+    margin-right: auto;
+    display: flex;
+    
+    
+    
+}
+
+.kopikon{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  
+}
+
+
+.logo-navbar{
+    width: 90px;
+    padding-left: 10px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.navbar-text{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.navbar-text:hover{
+    transition: 0,1s;
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------------TOP CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------TOP CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------TOP CONTAINER------------------------------------------------q--*/
+
+.top-container{
+    background-color: #FFF4E3;
+    text-align: center;
+    overflow: hidden;
+    color: #4E342E;
+    font-family: "sans-serif";
+}
+
+
+.produk-1{
+    margin: 70px auto 70px auto;
+    width: 50%;
+    line-height: 2;
+
+}
+
+.machalatte{
+    width: 30%;
+    float: left;
+   
+}
+
+.judul-macha{
+    text-align:left;
+    padding-top: 30px;
+    position: relative;
+    left: 10px;
+    font-size: 27px;
+    
+}
+
+.descri-macha{
+    text-align:justify;
+    display: flex;
+    padding-left: 10px;
+    font-size: 17px;
+    
+}
+
+/*----------       -----------------        ---------------TOP CONTAINER----------       -----------------        ------------*/
+
+.produk-2{
+    margin: 70px auto 70px auto;
+    width: 50%;
+    line-height: 2;
+
+}
+
+.americano{
+    width: 30%;
+    float: right;
+}
+
+.judul-americano{
+    text-align: right;
+    padding-top: 30px;
+    position: relative;
+    right: 10px;
+    font-size: 27px;
+}
+
+.descri-americano{
+    text-align: justify;
+    display: flex;
+    padding-right: 10px;
+    font-size: 17px;
+}
+/*----------       -----------------        ---------------TOP CONTAINER----------       -----------------        -------------*/
+.produk-3{
+    margin: 70px auto 70px auto;
+    width: 50%;
+    line-height: 2;
+
+}
+
+.cappuccino{
+    width: 30%;
+    float: left;
+}
+
+.judul-cappuccino{
+    text-align: left;
+    padding-top: 30px;
+    position: relative;
+    left: 10px;
+    font-size: 27px;
+}
+.descri-cappuccino{
+    text-align: justify;
+    display: flex;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+/*--------------------------------------------------------------MIDDLE CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------MIDDLE CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------MIDDLE CONTAINER------------------------------------------------q--*/
+
+.middle-container{
+    background-color:#FFF4E3;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+.achievement{
+    background-color:#FFF4E3;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    
+}
+
+.achievement-1{
+    margin: 0px 10px;
+    flex: 1;
+    
+}
+
+.logo1{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.achievement-2{
+    margin: 0px 10px;
+    flex: 1;
+    
+}
+
+.logo2{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.achievement-3{
+    margin: 0px 10px;
+    flex: 1;
+    
+    
+}
+
+.logo3{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kontaksaya{
+    text-align: center;
+    background-color: #FFF4E3;
+    overflow: hidden;
+}
+
+.katapemanis{
+   margin-top: 40px;
+}
+
+.katapemanis-text{
+    font-size: 17px;
+}
+
+.button{
+
+}
+
+/*--------------------------------------------------------------LAST CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------LAST CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------LAST CONTAINER--------------------------------------------------*/
+
+.last-container{
+    background-color: #FFF4E3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: "sans-serif";
+}
+
+.aplikasi{
+    width: 70%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 70px 0px;
+   
+
+
+}
+
+.aplikasi-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.konten-kanan{
+    width: 50%;
+    
+}
+.aplikasi-kopi{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+}
+
+.aplikasi-kopi-img{
+    width: 100%;
+    max-width: 160px;
+   
+    
+   
+}
+
+.aplikasi-konten{
+    text-align: left;
+    align-items: center;
+    
+}
+
+.aplikasi-konten-item{
+    
+}
+
+.aplikasi-konten-list{
+    
+}
+
+.aplikasi-judul{
+
+}
+
+.aplikasi-descri{
+    text-align: justify;
+    margin-bottom: 30px;
+
+}
+
+.benefit-aplikasi{
+    text-align: justify;
+    margin-bottom: 16px;
+
+}
+.gambar-store{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.gambar-store a{
+    width: 50%;
+    
+
+}
+
+.playstore{
+    width: 50%;
+    padding-left: 60px;
+  
+}
+
+.appstore{
+    width: 50%;
+    padding-right: 60px;
+ 
+}
+
+
+
+
+
+/*--------------------------------------------------------------Bottom CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------Bottom CONTAINER--------------------------------------------------*/
+/*--------------------------------------------------------------Bottom CONTAINER--------------------------------------------------*/
+
+.bottom-container{
+    background-color:#8D6E63;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer-sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.linkedin-icon{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.footer-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.instagram-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.github-icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+.footer-text{
+    color: white;
+    margin-left: 4px;
+    font-family:"Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.footer-text:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+   background: #4E342E;
+   background-image: -webkit-linear-gradient(top, #4E342E, #8D6E63);
+   background-image: -moz-linear-gradient(top, #4E342E, #8D6E63);
+   background-image: -ms-linear-gradient(top, #4E342E, #8D6E63);
+   background-image: -o-linear-gradient(top, #4E342E, #8D6E63);
+   background-image: -webkit-gradient(to bottom, #4E342E, #8D6E63);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 13px;
+   font-weight: 100;
+   padding: 8px;
+   -webkit-box-shadow: 0 0 1px 0 #000000;
+   -moz-box-shadow: 0 0 1px 0 #000000;
+   box-shadow: 0 0 1px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #4E342E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.btn:hover {
+   border: solid #4E342E 1px;
+   background: #4E342E;
+   background-image: -webkit-linear-gradient(top, #4E342E, #4E342E);
+   background-image: -moz-linear-gradient(top, #4E342E, #4E342E);
+   background-image: -ms-linear-gradient(top, #4E342E, #4E342E);
+   background-image: -o-linear-gradient(top, #4E342E, #4E342E);
+   background-image: -webkit-gradient(to bottom, #4E342E, #4E342E);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   text-decoration: none;
+}
